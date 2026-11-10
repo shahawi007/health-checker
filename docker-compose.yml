@@ -1,6 +1,6 @@
 services:
   app:
-    image: health-checker
+    image: ghcr.io/shahawi007/health-checker:latest
     container_name: hc
     ports:
       - "5000:5000"
